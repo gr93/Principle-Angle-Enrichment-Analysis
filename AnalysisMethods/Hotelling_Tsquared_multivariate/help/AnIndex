@@ -1,0 +1,12 @@
+alr	alr
+bottle.df	bottle.df
+clr	clr
+container.df	container.df
+hotel.stat	hotelling.stat
+hotel.test	hotelling.test
+hotelling.stat	hotelling.stat
+hotelling.test	hotelling.test
+hotelling.test.default	hotelling.test
+hotelling.test.formula	hotelling.test
+plot.hotelling.test	plot.hotelling.test
+print.hotelling.test	print.hotelling.test

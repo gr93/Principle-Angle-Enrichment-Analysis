@@ -1,0 +1,19 @@
+Package: GSAR
+Type: Package
+Title: Gene Set Analysis in R
+Version: 1.8.0
+Date: 2016-08-08
+Author: Yasir Rahmatallah <yrahmatallah@uams.edu>, Galina Glazko <gvglazko@uams.edu>
+Maintainer: Yasir Rahmatallah <yrahmatallah@uams.edu>, Galina Glazko <gvglazko@uams.edu>
+Depends: R (>= 3.0.1), igraph (>= 0.7.1)
+Imports: stats, graphics
+Suggests: MASS, GSVAdata, ALL, tweeDEseqCountData, GSEABase, annotate,
+        org.Hs.eg.db, Biobase, genefilter, hgu95av2.db, edgeR,
+        BiocStyle
+LazyData: yes
+biocViews: Software, StatisticalMethod, DifferentialExpression
+Description: Gene set analysis using specific alternative hypotheses. Tests for differential expression, scale and net correlation structure.
+License: GPL (>=2)
+NeedsCompilation: no
+Packaged: 2016-10-17 23:57:34 UTC; biocbuild
+Built: R 3.3.1; ; 2016-10-18 02:52:05 UTC; windows

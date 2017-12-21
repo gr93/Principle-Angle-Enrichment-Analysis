@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href="style.css" rel="stylesheet">
+   <title>PAEA Tool</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+</head>
+<body>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <h1>Principle Angle Enrichment Analysis Tool</h1>
+    
+    This is a tool for doing Principle Angle Enrichment Analysis. PAEA utilizes a geometric approach to gene set enrichment, employing dimensionality
+    reduction and a multivariate approach that is an improvement upon the characteristic direction. It was found that this approach outperformed GSEA, the chi-squared test, the median p value test, the
+    Wilcoxon rank sum test, and the Kolmogorov-Smirnov test. The results were verified from a set of controlled experiments from which we can expect a
+    subset of genes to be significantly different from a randomly sampled gene set from the gene set library. The ranks and cumulative distribution
+    function (cdf's) were analyzed to determine which method performed the best. <br> <br>
+
+    This tool utilizes an R-package called which is able to perform characteristic direction analysis as well as principle angle enrichment analysis.
+    It takes expression data, the sample classes, and gamma value parameters as inputs, and outputs three graphs. The first graph is a 2D projection of the
+    characteristic direction (Principle Component 2 vs Principle Component 1). Typically this is used to reduce large gene data sets into a smaller number
+    of principle components, from which we can make better conclusions. The second graph is a significance curve of significance vs rank values. Rank
+    values are obtained by transposing the expression data matrix and ordering the values. From here, a significance test is conducted between the two
+    groups (control vs perturbed) to obtain this graph. A positive peak indicates the two groups are significantly different. The final graph is a graph of
+    the shrinkage parameter (gamma) versus significantly differentially expressed genes. This utilizes PAEA in order to give a stronger reading. <br> <br>
+
+    To use this tool, please upload 3 files: expression data, sample class data, and gamma values. Additionally, three example files are provided here in
+    order to try using this tool. <u> Make sure your file format follows the same format as the example files provided.</u> <br> <br>
+
+   <a href="uploads/example_expression_data.RData">Example expression data</a> <br>
+   <a href="uploads/example_sampleclass.RData">Example sample classes</a> <br>
+   <a href="uploads/example_gammas.RData">Example gamma values</a> <br> <br> 
+ 
+
+
+    Select expression data named <b>expression_data.Rdata</b>
+    <input type="file" name="fileToUpload1" id="fileToUpload"> <br>
+    Select sample classes named <b>sampleclass.Rdata</b>
+    <input type="file" name="fileToUpload2" id="fileToUpload"> <br>
+    Select sample gammas named <b>gammas.Rdata</b>
+    <input type="file" name="fileToUpload3" id="fileToUpload"> <br> <br> 
+    <input id="button" type="submit" value="Generate Analysis PDF" name="submit">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+load("/Users/gopalravindhran/Documents/School/Junior S1 Classes/Bionformatics Senior Project/Figure 1 Code/ChDir and PAEA/data/AllGMTfiles.RData")
+load("/Users/gopalravindhran/Documents/School/Junior S1 Classes/Bionformatics Senior Project/Figure 1 Code/ChDir and PAEA/data/BioCarta_pathways.gmt.RData")
+load("/Users/gopalravindhran/Documents/School/Junior S1 Classes/Bionformatics Senior Project/Figure 1 Code/ChDir and PAEA/data/Cancer_Cell_Line_Encyclopedia.gmt.RData")
+load("/Users/gopalravindhran/Documents/School/Junior S1 Classes/Bionformatics Senior Project/Figure 1 Code/ChDir and PAEA/data/ChEA.gmt.RData")
+load("/Users/gopalravindhran/Documents/School/Junior S1 Classes/Bionformatics Senior Project/Figure 1 Code/ChDir and PAEA/data/Chromosome_location.gmt.RData")
+load("/Users/gopalravindhran/Documents/School/Junior S1 Classes/Bionformatics Senior Project/Figure 1 Code/ChDir and PAEA/data/CORUM.gmt.RData")

@@ -1,0 +1,13 @@
+alr                     Additive log ratio transformation
+bottle.df               Bottle data
+clr                     Centered log ratio transformation
+container.df            Container data
+hotelling.stat          Calculate Hotelling's two sample T-squared test
+                        statistic
+hotelling.test          Two-sample Hotelling's T-squared test
+plot.hotelling.test     Plots the results from a permutation based
+                        version of Hotelling's T-squared test for the
+                        difference in two multivariate sample means
+print.hotelling.test    Prints the results from a Hotelling's T-squared
+                        test for the difference in two multivariate
+                        sample means

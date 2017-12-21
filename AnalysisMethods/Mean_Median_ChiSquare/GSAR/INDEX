@@ -1,0 +1,22 @@
+AggrFtest               Aggregated F-Test of Variance Using Fisher's
+                        Probability Combining Method
+GSAR-package            Gene Set Analysis in R
+GSNCAtest               Gene Sets Net Correlations Analysis
+HDP.ranking             High Directed Preorder Ranking of MST
+KStest                  Multivariate Kolmogorov-Smirnov Test of Means
+MDtest                  Multivariate Mean Deviation Test of Means
+RKStest                 Multivariate Radial Kolmogorov-Smirnov Test of
+                        Variance
+RMDtest                 Multivariate Radial Mean Deviation Test of
+                        Variance
+TestGeneSets            Test a List of Gene Sets Using a Specific
+                        Statistical Method
+WWtest                  Multivariate Generalization of the
+                        Wald-Wolfowitz Runs Test
+findMST2                Union of the First and Second Minimum Spanning
+                        Trees
+findMST2.PPI            Union of the First and Second Minimum Spanning
+                        Trees for PPI Networks
+p53DataSet              p53 Dataset of the NCI-60 Cell Lines
+plotMST2.pathway        Plot MST2 for a pathway in two conditions
+radial.ranking          Radial Ranking of MST
